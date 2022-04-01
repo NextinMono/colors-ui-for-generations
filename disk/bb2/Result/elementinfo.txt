@@ -1,0 +1,6 @@
+Cast 19/21 TOP-BOTTOM shutter
+Cast 20 word result
+Cast 3 g0 score bg
+Cast 4 rank 
+S3G1C1 rank text
+S0G4C2 score text

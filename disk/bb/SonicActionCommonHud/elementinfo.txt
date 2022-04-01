@@ -1,0 +1,34 @@
+scale boost: 1.25
+offset boost: x -0.2914062 (+0.1)
+
+
+pos boost bars: x-0.015 y0.002
+scale boost bars: 1.1x 1.25y
+
+
+
+NEW data
+
+(frame)
+offset: -0.0888x, -0.044y
+scale: 1.1x 1y
+(everything else)
+offset: -0.095x,
+
+
+color red bar: 230 everything
+
+
+offset pos skill: -0.0624x 0.515y
+offset skill: -0.3635x, -0.183
+scale: 1.95x,y
+
+
+
+
+pos score
+x-0.9
+
+offset 0.46x -0.3875y
+scale 2.7x, 0.6y
+
