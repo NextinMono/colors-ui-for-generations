@@ -1,0 +1,94 @@
+{
+    "Groups": [
+        {
+            "Name": "Main",
+            "DisplayName": "Configuration",
+            "Elements": [
+                {
+                    "Name": "IncludeDir1",
+                    "DisplayName": "Boost Bar Type",
+                    "Description": [
+                        "Choose between the accurate boost bar and Nextin's boost bar"
+                    ],
+                    "Type": "BoostEnum",
+                    "MinValue": null,
+                    "MaxValue": null,
+                    "DefaultValue": "hud"
+                },
+                {
+                    "Name": "IncludeDir3",
+                    "DisplayName": "Enable Stage Gate",
+                    "Description": [
+                        "Enables the level information UI on the white world. Turn this off for compatibility with other mods."
+                    ],
+                    "Type": "StageEnum",
+                    "MinValue": null,
+                    "MaxValue": null,
+                    "DefaultValue": "stage_gate"
+                },
+                {
+                    "Name": "IncludeDir2",
+                    "DisplayName": "Enable General UI ",
+                    "Description": [
+                        "If enabled, it'll show some custom UI for everything, if disabled, it'll only show the in-game HUD"
+                    ],
+                    "Type": "UIEnum",
+                    "MinValue": null,
+                    "MaxValue": null,
+                    "DefaultValue": "ui"
+                }
+            ]
+        }
+    ],
+    "Enums": {
+        "StageEnum": [
+            {
+                "DisplayName": "Enabled",
+                "Value": "stage_gate",
+                "Description": [
+                    "Enables the UI"
+                ]
+            },
+            {
+                "DisplayName": "Disabled",
+                "Value": "",
+                "Description": [
+                    "Disables the UI"
+                ]
+            }
+        ],
+        "UIEnum": [
+            {
+                "DisplayName": "Enabled",
+                "Value": "ui",
+                "Description": [
+                    "Enables the UI"
+                ]
+            },
+            {
+                "DisplayName": "Disabled",
+                "Value": "",
+                "Description": [
+                    "Disables the UI"
+                ]
+            }
+        ],
+        "BoostEnum": [
+            {
+                "DisplayName": "Accurate",
+                "Value": "hud",
+                "Description": [
+                    "Accurate Boost bar"
+                ]
+            },
+            {
+                "DisplayName": "Nextin's Version",
+                "Value": "hud_boostnew",
+                "Description": [
+                    "Nextin's Boost bar interpretation"
+                ]
+            }
+        ]
+    },
+    "IniFile": "mod.ini"
+}
