@@ -1,3 +1,7 @@
+Patch "Loop Title Animations Forever" by "Hyper"
+WriteProtected<byte>(0x1A57A3C, 0x00);
+WriteProtected<byte>(0x1A57BBC, 0x00);
+
 Patch "Disable Title Outro" by "Skyth"
 WriteProtected<int>(0x57346F, 0x16A36CC);
 
