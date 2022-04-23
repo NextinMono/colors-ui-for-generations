@@ -845,7 +845,7 @@
       <Type>WithChildren</Type>
       <PlaybackType>Polyphonic</PlaybackType>
       <Children>
-        <string>Synth/1000000_system/1000000_SYS_CMN/1000_004_cursor/1000_004_cursor</string>
+        <string>Synth/1000000_system/1000000_SYS_CMN/1000_004_cursor/SC_Cursor</string>
       </Children>
       <Volume>1000</Volume>
       <Pitch>0</Pitch>
@@ -932,10 +932,10 @@
       <ComboLoopBack>0</ComboLoopBack>
     </BuilderSynthNode>
     <BuilderSynthNode>
-      <Name>Synth/1000000_system/1000000_SYS_CMN/1000_004_cursor/1000_004_cursor</Name>
+      <Name>Synth/1000000_system/1000000_SYS_CMN/1000_004_cursor/SC_Cursor</Name>
       <Type>Single</Type>
       <PlaybackType>Normal</PlaybackType>
-      <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/1000_004_cursor_aif</SoundElementReference>
+      <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/SC_Cursor</SoundElementReference>
       <Children />
       <Volume>699</Volume>
       <Pitch>0</Pitch>
@@ -1026,7 +1026,7 @@
       <Type>WithChildren</Type>
       <PlaybackType>Polyphonic</PlaybackType>
       <Children>
-        <string>Synth/1000000_system/1000000_SYS_CMN/1000_005_button/1000_005_button</string>
+        <string>Synth/1000000_system/1000000_SYS_CMN/1000_005_button/SC_Select</string>
       </Children>
       <Volume>1000</Volume>
       <Pitch>0</Pitch>
@@ -1113,10 +1113,10 @@
       <ComboLoopBack>0</ComboLoopBack>
     </BuilderSynthNode>
     <BuilderSynthNode>
-      <Name>Synth/1000000_system/1000000_SYS_CMN/1000_005_button/1000_005_button</Name>
+      <Name>Synth/1000000_system/1000000_SYS_CMN/1000_005_button/SC_Select</Name>
       <Type>Single</Type>
       <PlaybackType>Normal</PlaybackType>
-      <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/1000_005_button_aif</SoundElementReference>
+      <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/SC_Select</SoundElementReference>
       <Children />
       <Volume>899</Volume>
       <Pitch>0</Pitch>
@@ -1569,8 +1569,8 @@
       <Type>WithChildren</Type>
       <PlaybackType>Polyphonic</PlaybackType>
       <Children>
-        <string>Synth/1000000_system/1000000_SYS_CMN/1000_008_pressstart/1000_008_pressstart</string>
-        <string>Synth/1000000_system/1000000_SYS_CMN/1000_008_pressstart/1000_008_pressstart_1</string>
+        <string>Synth/1000000_system/1000000_SYS_CMN/1000_008_pressstart/SC_Select</string>
+        <string>Synth/1000000_system/1000000_SYS_CMN/1000_008_pressstart/SC_Select_0</string>
       </Children>
       <Volume>759</Volume>
       <Pitch>0</Pitch>
@@ -1657,10 +1657,10 @@
       <ComboLoopBack>0</ComboLoopBack>
     </BuilderSynthNode>
     <BuilderSynthNode>
-      <Name>Synth/1000000_system/1000000_SYS_CMN/1000_008_pressstart/1000_008_pressstart</Name>
+      <Name>Synth/1000000_system/1000000_SYS_CMN/1000_008_pressstart/SC_Select</Name>
       <Type>Single</Type>
       <PlaybackType>Normal</PlaybackType>
-      <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/1000_008_pressstart_aif</SoundElementReference>
+      <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/SC_Select</SoundElementReference>
       <Children />
       <Volume>1000</Volume>
       <Pitch>-10</Pitch>
@@ -1747,10 +1747,10 @@
       <ComboLoopBack>0</ComboLoopBack>
     </BuilderSynthNode>
     <BuilderSynthNode>
-      <Name>Synth/1000000_system/1000000_SYS_CMN/1000_008_pressstart/1000_008_pressstart_1</Name>
+      <Name>Synth/1000000_system/1000000_SYS_CMN/1000_008_pressstart/SC_Select_0</Name>
       <Type>Single</Type>
       <PlaybackType>Normal</PlaybackType>
-      <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/1000_008_pressstart_aif</SoundElementReference>
+      <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/SC_Select</SoundElementReference>
       <Children />
       <Volume>759</Volume>
       <Pitch>10</Pitch>
@@ -1840,9 +1840,9 @@
       <Name>Synth/1000000_system/1000000_SYS_CMN/1000_009_load01_00</Name>
       <Type>Single</Type>
       <PlaybackType>Normal</PlaybackType>
-      <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/1000_009_load01_00_wav</SoundElementReference>
+      <SoundElementReference />
       <Children />
-      <Volume>750</Volume>
+      <Volume>0</Volume>
       <Pitch>0</Pitch>
       <DelayTime>0</DelayTime>
       <SControl>0</SControl>
@@ -2477,7 +2477,7 @@
       <PlaybackType>Normal</PlaybackType>
       <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/1000_011_load01_02_wav</SoundElementReference>
       <Children />
-      <Volume>649</Volume>
+      <Volume>0</Volume>
       <Pitch>0</Pitch>
       <DelayTime>0</DelayTime>
       <SControl>0</SControl>
@@ -2659,7 +2659,7 @@
       <PlaybackType>Normal</PlaybackType>
       <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/1000_012_load01_03_wav</SoundElementReference>
       <Children />
-      <Volume>1000</Volume>
+      <Volume>0</Volume>
       <Pitch>0</Pitch>
       <DelayTime>0</DelayTime>
       <SControl>0</SControl>
@@ -2749,7 +2749,7 @@
       <PlaybackType>Normal</PlaybackType>
       <SoundElementReference>Synth/1000000_system/1000000_SYS_CMN/1000_012_load01_03_wav</SoundElementReference>
       <Children />
-      <Volume>1000</Volume>
+      <Volume>0</Volume>
       <Pitch>0</Pitch>
       <DelayTime>0</DelayTime>
       <SControl>0</SControl>
@@ -3470,22 +3470,6 @@
   </SynthNodes>
   <SoundElementNodes>
     <BuilderSoundElementNode>
-      <Name>Synth/1000000_system/1000000_SYS_CMN/1000_000_sw_open_aif</Name>
-      <Intro>Synth_1000000_system_1000000_SYS_CMN_1000_000_sw_open_aif_Intro.adx</Intro>
-      <ChannelCount>2</ChannelCount>
-      <Streaming>false</Streaming>
-      <SampleRate>32000</SampleRate>
-      <SampleCount>12849</SampleCount>
-    </BuilderSoundElementNode>
-    <BuilderSoundElementNode>
-      <Name>Synth/1000000_system/1000000_SYS_CMN/1000_001_sw_close_aif</Name>
-      <Intro>Synth_1000000_system_1000000_SYS_CMN_1000_001_sw_close_aif_Intro.adx</Intro>
-      <ChannelCount>2</ChannelCount>
-      <Streaming>false</Streaming>
-      <SampleRate>28000</SampleRate>
-      <SampleCount>9733</SampleCount>
-    </BuilderSoundElementNode>
-    <BuilderSoundElementNode>
       <Name>Synth/1000000_system/1000000_SYS_CMN/1000_002_fw_open_aif</Name>
       <Intro>Synth_1000000_system_1000000_SYS_CMN_1000_002_fw_open_aif_Intro.adx</Intro>
       <ChannelCount>1</ChannelCount>
@@ -3500,14 +3484,6 @@
       <Streaming>false</Streaming>
       <SampleRate>28000</SampleRate>
       <SampleCount>8677</SampleCount>
-    </BuilderSoundElementNode>
-    <BuilderSoundElementNode>
-      <Name>Synth/1000000_system/1000000_SYS_CMN/1000_004_cursor_aif</Name>
-      <Intro>Synth_1000000_system_1000000_SYS_CMN_1000_004_cursor_aif_Intro.adx</Intro>
-      <ChannelCount>1</ChannelCount>
-      <Streaming>false</Streaming>
-      <SampleRate>32000</SampleRate>
-      <SampleCount>1400</SampleCount>
     </BuilderSoundElementNode>
     <BuilderSoundElementNode>
       <Name>Synth/1000000_system/1000000_SYS_CMN/1000_005_button_aif</Name>
@@ -3616,11 +3592,30 @@
     </BuilderSoundElementNode>
     <BuilderSoundElementNode>
       <Name>Synth/1000000_system/1000000_SYS_CMN/SC_Close_Menu</Name>
-      <Intro>Synth_1000000_system_1000000_SYS_CMN_SC_Close_Menu_Intro.adx</Intro>
+      <Intro>Menu_Close.adx</Intro>
+      <Loop />
       <ChannelCount>1</ChannelCount>
       <Streaming>false</Streaming>
-      <SampleRate>48000</SampleRate>
-      <SampleCount>27377</SampleCount>
+      <SampleRate>44100</SampleRate>
+      <SampleCount>25158</SampleCount>
+    </BuilderSoundElementNode>
+    <BuilderSoundElementNode>
+      <Name>Synth/1000000_system/1000000_SYS_CMN/SC_Cursor</Name>
+      <Intro>menu_cursor.adx</Intro>
+      <Loop />
+      <ChannelCount>1</ChannelCount>
+      <Streaming>false</Streaming>
+      <SampleRate>44100</SampleRate>
+      <SampleCount>6295</SampleCount>
+    </BuilderSoundElementNode>
+    <BuilderSoundElementNode>
+      <Name>Synth/1000000_system/1000000_SYS_CMN/SC_Select</Name>
+      <Intro>menu_select.adx</Intro>
+      <Loop />
+      <ChannelCount>2</ChannelCount>
+      <Streaming>false</Streaming>
+      <SampleRate>44100</SampleRate>
+      <SampleCount>122352</SampleCount>
     </BuilderSoundElementNode>
   </SoundElementNodes>
   <AisacNodes />

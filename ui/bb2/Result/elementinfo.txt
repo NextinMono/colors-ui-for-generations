@@ -12,6 +12,12 @@ S0G4C2 score text
 
 
 
+S2G0C2 = Left part of next rank
+SI 15 = Left half of sprite
+SI 16 = Middle
+SI 14 = Right side
+S2G0C8 = Dividerlineheader
+
 
 
 
