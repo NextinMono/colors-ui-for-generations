@@ -6,9 +6,9 @@
             "Elements": [
                 {
                     "Name": "IncludeDir1",
-                    "DisplayName": "Boost Bar Type",
+                    "DisplayName": "HUD Texture Type",
                     "Description": [
-                        "Choose between the accurate boost bar and Nextin's boost bar"
+                        "Choose between the HD Wii textures, or SCU textures"
                     ],
                     "Type": "BoostEnum",
                     "MinValue": null,
@@ -75,17 +75,17 @@
         ],
         "BoostEnum": [
             {
-                "DisplayName": "Accurate",
+                "DisplayName": "Wii HD (SCU Leftovers)",
                 "Value": "hud",
                 "Description": [
-                    "Accurate Boost bar"
+                    "HUD with Upscaled, Redrawn, or unused SCU textures."
                 ]
             },
             {
-                "DisplayName": "Nextin's Version",
-                "Value": "hud_boostnew",
+                "DisplayName": "SCU",
+                "Value": "hud_scu",
                 "Description": [
-                    "Nextin's Boost bar interpretation"
+                    "Same as Wii HD, but with used SCU textures"
                 ]
             }
         ]
