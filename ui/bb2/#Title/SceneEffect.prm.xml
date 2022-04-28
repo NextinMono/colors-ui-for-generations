@@ -377,7 +377,7 @@
           <Ambient_Shadow_Bias_Terrain>0</Ambient_Shadow_Bias_Terrain>
           <ShadowMapSize>1</ShadowMapSize>
           <ms_Bias>0.002</ms_Bias>
-          <ms_IsEnable>true</ms_IsEnable>
+          <ms_IsEnable>false</ms_IsEnable>
           <ms_IsRenderObject>true</ms_IsRenderObject>
           <ms_IsRenderTerrain>true</ms_IsRenderTerrain>
           <ms_IsReverseCullObject>false</ms_IsReverseCullObject>
