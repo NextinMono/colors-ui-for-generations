@@ -1,4 +1,0 @@
-Cast 3: BG cast (the cast that controls essentially everything related to BG stuff
-
-Cast 4: window middle
-everything else is a background sprite/frame

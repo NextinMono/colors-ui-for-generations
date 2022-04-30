@@ -1,7 +1,0 @@
-FOR BUTTONS
-Set cast 31's anim to 128 and set keyframe 0 to FFFFFFF and frame 5 to 00FFFFFF. Disable Anim 32
-
-Exact same for 33, disable 34
-Same for 35
-
-Set data offset of 37 to the one of 36 + difference between 35 and 36

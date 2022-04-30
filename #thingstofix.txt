@@ -1,6 +1,0 @@
-Fix results textures
-Redo results animations
-
-Fix "Best!" positioning in results
-Fix Stage Gate misalignment
-Fix window.xncp
