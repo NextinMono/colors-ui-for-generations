@@ -6,9 +6,9 @@
             "Elements": [
                 {
                     "Name": "IncludeDir1",
-                    "DisplayName": "HUD Texture Type",
+                    "DisplayName": "Boost Gauge Type",
                     "Description": [
-                        "Choose between the HD Wii textures, or SCU textures"
+                        "Determines what textures are used for the boost gauge."
                     ],
                     "Type": "BoostEnum",
                     "MinValue": null,
@@ -16,27 +16,39 @@
                     "DefaultValue": "hud"
                 },
                 {
+                    "Name": "IncludeDir2",
+                    "DisplayName": "Enable General UI",
+                    "Description": [
+                        "Enables the custom UI elements for other menus, rather than just the stages."
+                    ],
+                    "Type": "UIEnum",
+                    "MinValue": null,
+                    "MaxValue": null,
+                    "DefaultValue": "ui"
+                },
+                {
                     "Name": "IncludeDir3",
                     "DisplayName": "Enable Stage Gate",
                     "Description": [
-                        "Enables the level information UI on the white world. Turn this off for compatibility with other mods."
+                        "Enables the custom stage information UI in White World.\n\nDisable this if necessary to maintain compatibility with other mods."
                     ],
                     "Type": "StageEnum",
                     "MinValue": null,
                     "MaxValue": null,
                     "DefaultValue": "stage_gate"
                 },
-                {
-                    "Name": "IncludeDir2",
-                    "DisplayName": "Enable General UI ",
-                    "Description": [
-                        "If enabled, it'll show some custom UI for everything, if disabled, it'll only show the in-game HUD"
-                    ],
-                    "Type": "UIEnum",
-                    "MinValue": null,
-                    "MaxValue": null,
-                    "DefaultValue": "ui"
-                }
+				{
+					"Name": "GaugeShake",
+					"Description":
+					[
+						"Enables a shaking animation on the boost gauge similar to Sonic Colors."
+					],
+					"DisplayName": "Enable Gauge Shake",
+					"Type": "bool",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": true
+				}
             ]
         }
     ],
@@ -46,14 +58,14 @@
                 "DisplayName": "Enabled",
                 "Value": "stage_gate",
                 "Description": [
-                    "Enables the UI"
+                    "Enables the custom UI."
                 ]
             },
             {
                 "DisplayName": "Disabled",
                 "Value": "",
                 "Description": [
-                    "Disables the UI"
+                    "Disables the custom UI."
                 ]
             }
         ],
@@ -62,30 +74,30 @@
                 "DisplayName": "Enabled",
                 "Value": "ui",
                 "Description": [
-                    "Enables the UI"
+                    "Enables the custom UI."
                 ]
             },
             {
                 "DisplayName": "Disabled",
                 "Value": "",
                 "Description": [
-                    "Disables the UI"
+                    "Disables the custom UI."
                 ]
             }
         ],
         "BoostEnum": [
             {
-                "DisplayName": "Wii HD (SCU Leftovers)",
+                "DisplayName": "Wii",
                 "Value": "hud",
                 "Description": [
-                    "HUD with Upscaled, Redrawn, or unused SCU textures."
+                    "Use the leftover upscaled Wii gauge from Sonic Colors: Ultimate."
                 ]
             },
             {
-                "DisplayName": "SCU",
+                "DisplayName": "Ultimate",
                 "Value": "hud_scu",
                 "Description": [
-                    "Same as Wii HD, but with used SCU textures"
+                    "Use the redesigned gauge from Sonic Colors: Ultimate."
                 ]
             }
         ]
