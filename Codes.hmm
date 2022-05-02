@@ -16,3 +16,8 @@ WriteProtected<byte>(0x1096804,0x4A,0x18,0xE9,0xDD,0x00,0x00,0x00)
 
 Patch "Always Display Boost Button Prompt" by "Hyper"
 WriteProtected<byte>(0x109BC7C, 0xEB, 0x10);
+
+Patch "Collect 10-Ring Instantly" by "brianuuu"
+WriteNop(0xE4155E, 2);
+WriteNop(0xE415C8, 2);
+WriteProtected<int>(0xE4157A, -1);
