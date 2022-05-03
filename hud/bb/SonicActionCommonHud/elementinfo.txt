@@ -1,0 +1,22 @@
+TRICK TEXT:
+only word is word_combo_0
+
+
+
+FOR THE TRICKS
+
+The animations for the tricks are different compared to stock, and use a custom data offset.
+
+Flags is 240, you have to disable castanim4, and then set the 3rd subdata's data offset to the 2nd - 1st
+
+
+
+ANIM DATA:
+Frame 0, scale 0
+Frame 5, scale 2
+Frame 15, scale 2
+Frame 20, scale 0
+
+C:
+Frame 0, 00FFFFFF
+Frame 5, FFFFFFFF

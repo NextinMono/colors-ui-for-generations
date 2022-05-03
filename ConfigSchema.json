@@ -6,11 +6,11 @@
             "Elements": [
                 {
                     "Name": "IncludeDir1",
-                    "DisplayName": "Boost Gauge Type",
+                    "DisplayName": "HUD Style",
                     "Description": [
-                        "Determines what textures are used for the boost gauge."
+                        "Determines what textures are used for the HUD."
                     ],
-                    "Type": "BoostEnum",
+                    "Type": "HUDEnum",
                     "MinValue": null,
                     "MaxValue": null,
                     "DefaultValue": "hud"
@@ -53,19 +53,19 @@
         }
     ],
     "Enums": {
-        "StageEnum": [
+        "HUDEnum": [
             {
-                "DisplayName": "Enabled",
-                "Value": "stage_gate",
+                "DisplayName": "Wii",
+                "Value": "hud",
                 "Description": [
-                    "Enables the custom UI."
+                    "Uses the following designs;\n- Sonic life icon.\n- Original boost gauge.\n- Sonic Colors homing reticle."
                 ]
             },
             {
-                "DisplayName": "Disabled",
-                "Value": "",
+                "DisplayName": "Ultimate",
+                "Value": "hud_scu",
                 "Description": [
-                    "Disables the custom UI."
+                    "Uses the following designs;\n- Tails life icon.\n- Redesigned boost gauge.\n- Sonic Colors: Ultimate homing reticle."
                 ]
             }
         ],
@@ -85,19 +85,19 @@
                 ]
             }
         ],
-        "BoostEnum": [
+        "StageEnum": [
             {
-                "DisplayName": "Wii",
-                "Value": "hud",
+                "DisplayName": "Enabled",
+                "Value": "stage_gate",
                 "Description": [
-                    "Use the leftover upscaled Wii gauge from Sonic Colors: Ultimate."
+                    "Enables the custom UI."
                 ]
             },
             {
-                "DisplayName": "Ultimate",
-                "Value": "hud_scu",
+                "DisplayName": "Disabled",
+                "Value": "",
                 "Description": [
-                    "Use the redesigned gauge from Sonic Colors: Ultimate."
+                    "Disables the custom UI."
                 ]
             }
         ]
